@@ -1,19 +1,22 @@
 {
   "name": "yelp_camp",
   "version": "1.0.0",
-  "description": "",
+  "description": "YelpCamp project from Colt's web dev bootcamp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/bacomatic/yelpcamp.git"
+  }
   "dependencies": {
-    "async": "^2.5.0",
     "body-parser": "^1.18.1",
     "connect-flash": "^0.1.1",
     "ejs": "^2.5.7",
-    "es6-promise": "^4.1.1",
     "express": "^4.15.4",
     "express-session": "^1.15.5",
     "method-override": "^2.3.9",
