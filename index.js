@@ -28,7 +28,7 @@ var app = express()
     mongoose.connect("mongodb://localhost/yelp_camp", {useMongoClient: true})
  */
 mongoose.Promise = global.Promise
-mongoose.connect("mongodb://localhost/yelp_camp", {useMongoClient: true})
+mongoose.connect(process.env.YELP_MDB, {useMongoClient: true})
 
 app.use(express.static(__dirname + "/public"))
 app.use(bodyParser.urlencoded({extended: true}))
